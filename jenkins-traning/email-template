@@ -1,0 +1,18 @@
+<hr/>
+(本邮件是程序自动下发，请勿回复!)<br/><hr/>
+ 
+项目名称： $PROJECT_NAME<br/><hr/>
+ 
+Jenkins地址: http://stage-social.shiqichuban.com:8080/<br/><hr/>
+ 
+构建编号： $BUILD_NUMBER<br/><hr/>
+ 
+构建状态： $BUILD_STATUS<br/><hr/>
+ 
+触发原因： ${CAUSE}<br/><hr/>
+ 
+构建日志地址： <a href="${BUILD_URL}console">${BUILD_URL}console</a><br/><hr/>
+ 
+构建地址： <a href="$BUILD_URL">$BUILD_URL</a><br/><hr/>
+ 
+变更集： ${JELLY_SCRIPT,template="html"}<br/><hr/>
